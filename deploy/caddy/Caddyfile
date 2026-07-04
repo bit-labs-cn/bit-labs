@@ -1,0 +1,47 @@
+# Caddy 反向代理（Docker Compose 服务名作 upstream）
+# - 静态 SPA：共享卷 /srv/www（由 server 容器同步）
+# - API / 存储 / WebSocket：反代 server:8080
+# 绑定域名并自动 HTTPS 时，将 :80 改为你的域名，例如：labs.example.com { ... }
+
+{
+	auto_https off
+}
+
+:80 {
+	request_body {
+		max_size 64MB
+	}
+
+	handle /api/* {
+		reverse_proxy server:8080
+	}
+
+	handle /storage/* {
+		reverse_proxy server:8080
+	}
+
+	handle /ws* {
+		reverse_proxy server:8080
+	}
+
+	handle /health {
+		reverse_proxy server:8080
+	}
+
+	handle /static/* {
+		root * /srv/www
+		header Cache-Control "public, max-age=604800"
+		file_server
+	}
+
+	handle /platform-config.json /favicon.ico /logo.png {
+		root * /srv/www
+		file_server
+	}
+
+	handle {
+		root * /srv/www
+		try_files {path} /index.html
+		file_server
+	}
+}

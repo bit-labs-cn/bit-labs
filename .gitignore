@@ -1,0 +1,5 @@
+# owl 各 ServiceProvider 首次启动时自动生成，勿提交
+conf/
+node_modules
+storage
+frontend/admin/dist
