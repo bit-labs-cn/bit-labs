@@ -5,6 +5,8 @@ import (
 
 	firefly "firefly-cloud/app"
 
+	metricsapp "bit-labs.cn/owl-metrics/app"
+
 	"bit-labs.cn/owl"
 	admin "bit-labs.cn/owl-admin/app"
 	cms "bit-labs.cn/owl-cms/app"
@@ -18,6 +20,7 @@ func main() {
 		&cms.SubAppCms{},
 		&sms.SubAppSms{},
 		&firefly.SubAppFirefly{},
+		&metricsapp.SubAppMetrics{},
 		&admin.SubAppAdmin{},
 	).WebShell()
 }

@@ -4,7 +4,8 @@ import cmsSubsystem from "@bit-labs.cn/owl-cms-ui";
 import portalSubsystem from "@bit-labs.cn/owl-portal-ui";
 import smsSubsystem from "@bit-labs.cn/owl-sms-ui";
 import fireflySubsystem from "@bit-labs.cn/firefly-cloud-ui";
+import metricsSubsystem from "@bit-labs.cn/owl-metrics-ui";
 
 createFlexAdmin({
-  subsystems: [cmsSubsystem, portalSubsystem, smsSubsystem, fireflySubsystem, adminSubsystem]
+  subsystems: [cmsSubsystem, portalSubsystem, smsSubsystem, fireflySubsystem, metricsSubsystem, adminSubsystem]
 }).then(app => app.mount("#app"));

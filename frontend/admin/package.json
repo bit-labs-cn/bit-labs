@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@bit-labs.cn/firefly-cloud-ui": "workspace:*",
+    "@bit-labs.cn/owl-metrics-ui": "workspace:*",
     "@bit-labs.cn/owl-admin-ui": "workspace:*",
     "@bit-labs.cn/owl-cms-ui": "workspace:*",
     "@bit-labs.cn/owl-portal-ui": "workspace:*",
