@@ -6,7 +6,9 @@ replace (
 	bit-labs.cn/owl => ../owl
 	bit-labs.cn/owl-admin => ../owl-admin
 	bit-labs.cn/owl-cms => ../owl-cms
+	bit-labs.cn/owl-comment => ../owl-comment
 	bit-labs.cn/owl-metrics => ../owl-metrics
+	bit-labs.cn/owl-notify => ../owl-notify
 	bit-labs.cn/owl-portal => ../owl-portal
 	bit-labs.cn/owl-sms => ../owl-sms
 	firefly-cloud => ../firefly/cloud
@@ -16,7 +18,9 @@ require (
 	bit-labs.cn/owl v1.0.0
 	bit-labs.cn/owl-admin v1.0.0
 	bit-labs.cn/owl-cms v1.0.0
+	bit-labs.cn/owl-comment v0.0.0
 	bit-labs.cn/owl-metrics v0.0.0
+	bit-labs.cn/owl-notify v1.0.0
 	bit-labs.cn/owl-portal v1.0.0
 	bit-labs.cn/owl-sms v0.0.0
 	firefly-cloud v0.0.0
@@ -89,6 +93,8 @@ require (
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/googollee/go-socket.io v1.7.0 // indirect
 	github.com/gorilla/websocket v1.5.3 // indirect
+	github.com/gosimple/slug v1.15.0 // indirect
+	github.com/gosimple/unidecode v1.0.1 // indirect
 	github.com/hashicorp/errwrap v1.1.0 // indirect
 	github.com/hashicorp/go-multierror v1.1.1 // indirect
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect
