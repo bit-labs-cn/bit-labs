@@ -26,7 +26,7 @@ func (s *SubAppBitLabs) BeforeMigrate(db *gorm.DB) error { return nil }
 func (s *SubAppBitLabs) AfterMigrate(db *gorm.DB) error { return nil }
 
 func (s *SubAppBitLabs) ServiceProviders() []foundation.ServiceProvider {
-	return nil
+	return []foundation.ServiceProvider{}
 }
 
 func (s *SubAppBitLabs) RegisterMenus() []*router.Menu { return nil }
