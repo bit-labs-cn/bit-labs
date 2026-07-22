@@ -5,6 +5,7 @@ import (
 	"bit-labs.cn/owl/contract/foundation"
 	"bit-labs.cn/owl/provider/router"
 	"github.com/spf13/cobra"
+	"gorm.io/gorm"
 )
 
 var _ owl.SubApp = (*SubAppBitLabs)(nil)
@@ -18,13 +19,19 @@ func (s *SubAppBitLabs) Name() string { return "bit-labs" }
 
 func (s *SubAppBitLabs) Bootstrap() {}
 
+func (s *SubAppBitLabs) RegisterMigrate() []any { return nil }
+
+func (s *SubAppBitLabs) BeforeMigrate(db *gorm.DB) error { return nil }
+
+func (s *SubAppBitLabs) AfterMigrate(db *gorm.DB) error { return nil }
+
 func (s *SubAppBitLabs) ServiceProviders() []foundation.ServiceProvider {
 	return nil
 }
 
-func (s *SubAppBitLabs) Menu() []*router.Menu { return nil }
+func (s *SubAppBitLabs) RegisterMenus() []*router.Menu { return nil }
 
-func (s *SubAppBitLabs) Commands() []*cobra.Command { return nil }
+func (s *SubAppBitLabs) RegisterCommands() []*cobra.Command { return nil }
 
 func (s *SubAppBitLabs) RegisterRouters() {}
 
