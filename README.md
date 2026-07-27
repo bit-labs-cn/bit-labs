@@ -35,11 +35,12 @@ go run .
 **前端：**
 
 ```bash
-cd ../owl-ui-builder
-pnpm install
-cd ../bit-labs/frontend/admin
-pnpm dev
+cd frontend/admin
+pnpm dev    # 自动推断项目；首次会在 owl-ui-builder 生成 workspace 并 install
+pnpm build  # 产物在本目录 dist/
 ```
+
+配置自持于本目录：`.env*`、`public/`、`builder.projects.yaml`、`main.ts`。无需进入 `owl-ui-builder` 改配置。
 
 ## 子应用说明
 

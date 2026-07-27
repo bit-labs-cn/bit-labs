@@ -4,8 +4,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "node ../../../owl-ui-builder/scripts/run-project.mjs dev bit-labs",
-    "build": "node ../../../owl-ui-builder/scripts/run-project.mjs build bit-labs"
+    "dev": "node ../../../owl-ui-builder/scripts/run-project.mjs dev",
+    "build": "node ../../../owl-ui-builder/scripts/run-project.mjs build"
   },
   "dependencies": {
     "@bit-labs.cn/firefly-cloud-ui": "workspace:*",
