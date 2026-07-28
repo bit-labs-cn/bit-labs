@@ -8,7 +8,6 @@ replace (
 	bit-labs.cn/owl-cms => ../owl-cms
 	bit-labs.cn/owl-comment => ../owl-comment
 	bit-labs.cn/owl-metrics => ../owl-metrics
-	bit-labs.cn/owl-notify => ../owl-notify
 	bit-labs.cn/owl-portal => ../owl-portal
 	bit-labs.cn/owl-sms => ../owl-sms
 	firefly-cloud => ../firefly/cloud
@@ -20,7 +19,6 @@ require (
 	bit-labs.cn/owl-cms v1.0.0
 	bit-labs.cn/owl-comment v0.0.0
 	bit-labs.cn/owl-metrics v0.0.0
-	bit-labs.cn/owl-notify v1.0.0
 	bit-labs.cn/owl-portal v1.0.0
 	bit-labs.cn/owl-sms v0.0.0
 	firefly-cloud v0.0.0

@@ -11,7 +11,6 @@ import (
 	admin "bit-labs.cn/owl-admin/app"
 	cms "bit-labs.cn/owl-cms/app"
 	comment "bit-labs.cn/owl-comment/app"
-	notify "bit-labs.cn/owl-notify/app"
 	portal "bit-labs.cn/owl-portal/app"
 	sms "bit-labs.cn/owl-sms/app"
 )
@@ -24,7 +23,6 @@ func main() {
 		&firefly.SubAppFirefly{},
 		&metricsapp.SubAppMetrics{},
 		&comment.SubAppComment{},
-		&notify.SubAppNotify{},
 		&admin.SubAppAdmin{},
 	).WebShell()
 }

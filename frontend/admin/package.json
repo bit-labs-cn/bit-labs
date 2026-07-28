@@ -13,7 +13,6 @@
     "@bit-labs.cn/owl-admin-ui": "workspace:*",
     "@bit-labs.cn/owl-cms-ui": "workspace:*",
     "@bit-labs.cn/owl-comment-ui": "workspace:*",
-    "@bit-labs.cn/owl-notify-ui": "workspace:*",
     "@bit-labs.cn/owl-portal-ui": "workspace:*",
     "@bit-labs.cn/owl-sms-ui": "workspace:*",
     "@bit-labs.cn/owl-ui": "workspace:*",
