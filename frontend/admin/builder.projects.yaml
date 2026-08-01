@@ -1,5 +1,0 @@
-bit-labs:
-  title: 比特实验室
-  baseUrl:
-    dev: http://127.0.0.1:8087/
-    build: /
