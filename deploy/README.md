@@ -78,6 +78,7 @@ docker compose restart server
 
 - 站点：http://localhost（经 Caddy）
 - API：http://localhost/api/v1/...
+- Firefly 信令：`GET /api/v1/firefly/signaling`（WebSocket；配对 / 在线 / WebRTC 信令，进程重启后在线状态消失）
 - 健康检查：http://localhost/health
 
 ## 配置与数据
