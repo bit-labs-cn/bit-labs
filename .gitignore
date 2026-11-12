@@ -3,3 +3,10 @@ conf/
 node_modules
 storage
 frontend/admin/dist
+
+# 协调服务升级监视写下的运行时目录
+.upgrade/
+
+# 编译产物
+/bit-labs
+*.exe
