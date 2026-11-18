@@ -9,7 +9,7 @@ import fireflySubsystem from "@bit-labs.cn/firefly-cloud-ui";
 import metricsSubsystem from "@bit-labs.cn/owl-metrics-ui";
 import coordinatorSubsystem from "@bit-labs.cn/vlink-ui";
 import notifySubsystem from "@bit-labs.cn/owl-notification-ui";
-import appsSubsystem from "./src/index";
+import bitLabsPortal from "./src/index";
 
 createFlexAdmin({
   splitSubApp: {
@@ -27,6 +27,6 @@ createFlexAdmin({
     commentSubsystem,
     adminSubsystem,
     notifySubsystem,
-    appsSubsystem
+    bitLabsPortal
   ]
 }).then(app => app.mount("#app"));
