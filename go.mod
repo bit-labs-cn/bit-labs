@@ -7,6 +7,7 @@ replace (
 	bit-labs.cn/owl-admin => ../owl-admin
 	bit-labs.cn/owl-cms => ../owl-cms
 	bit-labs.cn/owl-comment => ../owl-comment
+	bit-labs.cn/owl-knowledge => ../owl-knowledge
 	bit-labs.cn/owl-metrics => ../owl-metrics
 	bit-labs.cn/owl-portal => ../owl-portal
 	bit-labs.cn/owl-sms => ../owl-sms
@@ -19,6 +20,7 @@ require (
 	bit-labs.cn/owl-admin v1.0.1-0.20260922060522-8f387d6d2590
 	bit-labs.cn/owl-cms v1.0.0
 	bit-labs.cn/owl-comment v0.0.0
+	bit-labs.cn/owl-knowledge v0.0.0
 	bit-labs.cn/owl-metrics v0.0.0
 	bit-labs.cn/owl-portal v1.0.0
 	bit-labs.cn/owl-sms v0.0.0
@@ -43,8 +45,8 @@ require (
 	github.com/alibabacloud-go/tea v1.5.3 // indirect
 	github.com/alibabacloud-go/tea-utils/v2 v2.0.9 // indirect
 	github.com/aliyun/credentials-go v1.4.13 // indirect
-	github.com/asaskevich/EventBus v0.0.0-20200907212545-49d423059eef // indirect
 	github.com/aws/aws-sdk-go v1.55.8 // indirect
+	github.com/aymerick/douceur v0.2.0 // indirect
 	github.com/bmatcuk/doublestar/v4 v4.10.4 // indirect
 	github.com/bytedance/gopkg v0.1.4 // indirect
 	github.com/bytedance/sonic v1.15.4 // indirect
@@ -96,6 +98,7 @@ require (
 	github.com/google/go-querystring v1.2.0 // indirect
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/googollee/go-socket.io v1.7.0 // indirect
+	github.com/gorilla/css v1.0.1 // indirect
 	github.com/gorilla/websocket v1.5.3 // indirect
 	github.com/gosimple/slug v1.15.0 // indirect
 	github.com/gosimple/unidecode v1.0.1 // indirect
@@ -115,10 +118,12 @@ require (
 	github.com/klauspost/compress v1.20.3 // indirect
 	github.com/klauspost/cpuid/v2 v2.4.1 // indirect
 	github.com/klauspost/crc32 v1.3.0 // indirect
+	github.com/ledongthuc/pdf v0.0.0-20261020125853-5e46805f718e // indirect
 	github.com/leodido/go-urn v1.5.0 // indirect
 	github.com/lufia/plan9stats v0.0.0-20211012122336-39d0f177ccd0 // indirect
 	github.com/mattn/go-colorable v0.1.16 // indirect
 	github.com/mattn/go-isatty v0.0.24 // indirect
+	github.com/microcosm-cc/bluemonday v1.0.27 // indirect
 	github.com/microsoft/go-mssqldb v1.11.2 // indirect
 	github.com/minio/crc64nvme v1.1.1 // indirect
 	github.com/minio/md5-simd v1.1.2 // indirect
@@ -148,6 +153,7 @@ require (
 	github.com/spf13/cast v1.10.0 // indirect
 	github.com/spf13/pflag v1.0.10 // indirect
 	github.com/spf13/viper v1.21.0 // indirect
+	github.com/streadway/amqp v1.1.0 // indirect
 	github.com/subosito/gotenv v1.6.0 // indirect
 	github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/common v1.3.191 // indirect
 	github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/sms v1.3.172 // indirect

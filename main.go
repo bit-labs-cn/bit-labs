@@ -5,6 +5,8 @@ import (
 
 	firefly "firefly-cloud/app"
 
+	notification "bit-labs.cn/owl-admin/app-notification"
+	knowledge "bit-labs.cn/owl-knowledge/app"
 	metricsapp "bit-labs.cn/owl-metrics/app"
 
 	"bit-labs.cn/owl"
@@ -25,6 +27,8 @@ func main() {
 		&firefly.SubAppFirefly{},
 		&metricsapp.SubAppMetrics{},
 		&coordinator.SubAppCoordinator{},
+		&notification.SubAppNotification{},
+		&knowledge.SubAppKnowledge{},
 		&admin.SubAppAdmin{},
 	).WebShell()
 }
