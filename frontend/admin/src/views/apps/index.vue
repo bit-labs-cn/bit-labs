@@ -275,7 +275,7 @@ async function enter(item: AppEntry) {
   }, 160);
 
   try {
-    await enterSubApp(item.subApp);
+    await enterSubApp([item.subApp, "notify", "admin"]);
   } finally {
     // 留出平滑转场动画时间
     launchTimer = setTimeout(() => {
